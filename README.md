@@ -33,5 +33,3 @@ run `sudo nano /etc/systemd/system/dbus-org.bluez.service` then change the line 
 ExecStart=/usr/lib/bluetooth/bluetoothd
 to something like this:
 ExecStart=/usr/lib/bluetooth/bluetoothd -C
-
-If everything seems to be working, but the 'PI DATA' part of the app keeps crashing, try to follow [this](https://thepihut.com/blogs/raspberry-pi-tutorials/19668676-renaming-your-raspberry-pi-the-hostname) tutorial to change the hostname of the Raspberry Pi to 'raspberrypi-0'.
