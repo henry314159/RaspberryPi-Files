@@ -9,4 +9,4 @@ Once you are in the Raspberry Pi's command line:
 ```
 sudo apt-get install bluez python3-bluez -y
 ```
-Then see this quick tutorial on how to pair your android device to the Raspberry Pi: [title](https://bluedot.readthedocs.io/en/latest/pairpiandroid.html)
+Then see [this](https://bluedot.readthedocs.io/en/latest/pairpiandroid.html) quick tutorial on how to pair your android device to the Raspberry Pi.
