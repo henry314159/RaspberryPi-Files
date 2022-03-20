@@ -2,7 +2,7 @@
 
 Python script to be run on Raspberry Pi for our PAPi competition submission.
 
-Once the pi is on run this command to connect to it:
+Once the pi is on run this command in command prompt to connect to it:
 ```
 ssh pi@raspberrypi
 ```
