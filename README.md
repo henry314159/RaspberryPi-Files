@@ -15,4 +15,5 @@ Now run these commands:
 sudo raspi-config nonint do_i2c 0
 sudo pip install pimoroni-bme280
 git clone https://github.com/henry314159/RaspberryPi-Files.git
+sudo hciconfig hci0 piscan
 ```
