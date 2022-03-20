@@ -24,11 +24,11 @@ sudo python setup.py
 # Common Errors
 
 If you get an error like this: 
-"bluetooth.btcommon.BluetoothError: no advertisable device"
+<span style="color:red">"bluetooth.btcommon.BluetoothError: no advertisable device"</span>
 simply run `sudo hciconfig hci0 piscan` again as it has just been timed out.
 
 If you get an error like this:
-"bluetooth.btcommon.BluetoothError: [Errno 2] No such file or directory"
+<span style="color:red">"bluetooth.btcommon.BluetoothError: [Errno 2] No such file or directory"</span>
 run `sudo nano /etc/systemd/system/dbus-org.bluez.service` then change the line that looks like this:
 ExecStart=/usr/lib/bluetooth/bluetoothd
 to something like this:
