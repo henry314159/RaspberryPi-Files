@@ -23,6 +23,20 @@ cd RaspberryPi-Files/
 sudo python setup.py
 ```
 
+# Optional experimentation
+
+If you want to make the setup.py script run on boot, edit the rc.local file by adding the following lines:
+```
+#!bin/bash
+sleep 10
+sudo hciconfig hci0 piscan
+sleep 5
+sudo python RaspberryPi-Files/setup.py
+
+exit 0
+```
+The sleep commands are intended to allow the user time to connect to the raspberry pi with their device, and to allow the raspberry pi time to initialise bluetooth.
+
 # Common Errors
 
 If you get an error like this: 
