@@ -140,7 +140,7 @@ while True:
         humidity = bme280.get_humidity()
         moisture = "wet"
         if chan.voltage > 1.9:
-            moisture = "lovely and moist"
+            moisture = "moist"
         if chan.voltage > 3:
             moisture = "dry"
         client_sock.send('{:05.2f} {:05.2f} {:05.2f} '.format(temperature, pressure, humidity)+moisture+'!')
